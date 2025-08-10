@@ -5,6 +5,8 @@ import (
 	"testing"
 )
 
+func TestEmpty(t *testing.T) {}
+
 func TestGetAuth(t *testing.T) {
 
 	tests := map[string]struct {
